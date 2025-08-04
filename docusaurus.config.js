@@ -31,7 +31,7 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          editUrl: 'https://github.com/Smiley-Devv/FullstackDevDocs/edit/main/docs/',
+          editUrl: 'https://github.com/Smiley-Devv/FullstackDevDocs/edit/main/',
         },
         blog: {
           showReadingTime: true,

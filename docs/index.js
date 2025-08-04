@@ -1,3 +1,5 @@
+// src/pages/index.js
+
 import React from 'react';
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
@@ -7,7 +9,9 @@ export default function Home() {
     <Layout title="Tech Stack Docs" description="Documentation for popular tech stacks">
       <main className="container margin-vert--lg">
         <h1 className="hero__title">Welcome to the Tech Stack Docs</h1>
-        <p className="hero__subtitle">Explore documentation for popular technologies like Node.js, React, TypeScript, and more.</p>
+        <p className="hero__subtitle">
+          Explore documentation for popular technologies like Node.js, React, TypeScript, and more.
+        </p>
 
         <div className="row">
           <div className="col col--4">
@@ -48,6 +52,4 @@ export default function Home() {
     </Layout>
   );
 }
-// This file serves as the main entry point for the documentation site,
-// providing links to various technology documentation pages.
-// Each button links to a specific documentation section for easy navigation.
+// This file serves as the homepage for the documentation site, providing links to various tech stack documentation.
